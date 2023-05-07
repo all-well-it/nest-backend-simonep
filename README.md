@@ -55,7 +55,7 @@ $ npm run test:cov
 
 ## Docker
 if you want to use docker you can run this command
-```docker compose -f .\docker\dev\docker-compose.yml up```
+```docker compose -f .\docker\docker-compose.yml up```
 
 ## Stay in touch
 

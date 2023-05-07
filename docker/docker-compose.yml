@@ -5,10 +5,10 @@ services:
     container_name: nestjs
     restart: always
     build:
-      context: ../../
-      dockerfile: ./docker/dev/Dockerfile
+      context: ../
+      dockerfile: ./docker/Dockerfile
     ports:
       - '3000:3000'
     volumes:
-      - ../../src/:/app/src/
+      - ../src/:/app/src/
     #command: npm run start:dev
