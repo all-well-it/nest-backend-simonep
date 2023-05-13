@@ -52,6 +52,11 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Docker
+if you want to use docker you can run this command
+```docker compose -f .\docker\docker-compose.yml up```
+
 ## Stay in touch
 
 - Author - [SimoneDevkt](https://github.com/SimoneDevkt)
